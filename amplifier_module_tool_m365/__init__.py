@@ -18,7 +18,7 @@ register_provider("m365", M365Provider)
 
 def mount(session):
     """Mount M365 collaboration to an Amplifier session.
-    
+
     The provider is auto-registered on import. Tools from collab-core
     can use provider_name='m365' to access M365 functionality.
     """
